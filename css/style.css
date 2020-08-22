@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+.logo{
+    display: block;
+    margin: -30px auto;
+    width: 180px;
+    height: 148px;
+}
+.container{
+    background: url('f.jpg')center center no-repeat fixed;
+    background-size: cover;
+    max-width: 955px;
+    border: 2px solid black;
+    margin: auto;
+    height: 70vh;
+    padding: 0px 20px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    width: 58%;
+    border-radius: 10px;
+}
+.message{
+    background-color: grey;
+    width: 28%;
+    padding: 10px;
+    margin: 10px 3px;
+    border: 2px solid black;
+    border-radius: 18px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#messageInp{
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 22px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body{
+    /* background-image: linear-gradient(#eeff6c,#ff5eff); */
+    height: 100%;
+    background: url("wbg.jpg")no-repeat center center fixed;
+     background-size: cover;
+    
+}
+*{
+    outline: none;
+}
